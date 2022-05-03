@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Rubik:ital,wght@0,500;1,400&family=Spartan:wght@700&display=swap');
+
+
+html{
+    background-color:  hsl(234, 17%, 12%);
+    height: 100vh;
+    font-family: 'Spartan', sans-serif;
+}
+
+
+.reloj{
+    display: inline-block;
+    margin-right: 2em;
+    margin-top: 5em;
+    text-align: center;
+}
+
+.pointer{
+font-size: 3em;
+background-color: hsl(236, 21%, 26%);
+width: 2em;
+padding: 0.3em;
+border-radius: 5px;
+color: hsl(345, 95%, 68%)
+
+}
+
+
+svg{
+    
+    margin-right: 1em;
+    margin-top: 3em;
+}
+  
+.logosCont{
+position: absolute;
+bottom: 10%;
+left: 45%;
+}
+
+
+@media (max-width: 700px) { 
+    .reloj{
+        display: inline-block;
+        margin-top: 5em;
+        text-align: center;
+        margin-right: 10px;
+    }
+    
+    .pointer{
+    font-size: 2em;
+    background-color: hsl(236, 21%, 26%);
+    width: 1.5em;
+    padding: 0.3em;
+    border-radius: 5px;
+    color: hsl(345, 95%, 68%)
+    
+    }
+
+    .container{
+        display: block;
+        
+       
+    }
+
+    h6{
+        font-size: 6px;
+    }
+
+    .logosCont{
+      
+        left: 35%;
+        }
+    
+}
